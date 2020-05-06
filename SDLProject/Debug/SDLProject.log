@@ -1,0 +1,18 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_GetWindowSurface referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "private: void __thiscall App::Cleanup(void)" (?Cleanup@App@@AAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: int __thiscall App::Execute(int,char * * const)" (?Execute@App@@QAEHHQAPAD@Z)
+main.obj : error LNK2019: unresolved external symbol _SDL_SetHint referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "private: void __thiscall App::Render(void)" (?Render@App@@AAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "private: void __thiscall App::Render(void)" (?Render@App@@AAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "private: void __thiscall App::Cleanup(void)" (?Cleanup@App@@AAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function "public: int __thiscall App::Execute(int,char * * const)" (?Execute@App@@QAEHHQAPAD@Z)
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "private: bool __thiscall App::Init(void)" (?Init@App@@AAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "private: void __thiscall App::Cleanup(void)" (?Cleanup@App@@AAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "private: static class App App::Instance" (?Instance@App@@0V1@A)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL2-2.0.12\build\Release\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\admin\Desktop\Dev\SDLProject\Debug\SDLProject.exe : fatal error LNK1120: 15 unresolved externals
